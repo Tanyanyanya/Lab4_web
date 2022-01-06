@@ -1,0 +1,74 @@
+#work {
+    visibility: hidden;
+    z-index: 2;
+    background: white;
+    width: calc(50% + 10px);
+    height: calc(70% + 50px);
+    position: absolute;
+    margin: auto;
+    top: 15%;
+    left: 15%;
+}
+#operations{
+    overflow-y: scroll;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20%;
+    max-height: 90%;
+}
+#anim{
+    border: 5px solid #ff0000;
+    z-index: 2;
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    margin:auto;
+    bottom: 0;
+    left: 10%;
+}
+#playButton{
+    margin-bottom: 1rem;
+
+}
+#closeButton{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.animButton{
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+    display: none;
+}
+#startButton{
+    display: block;
+}
+@media (max-width: 768px){
+    form{
+        padding: 0;
+    }
+    form > input[type=number], form > input[type=text]{
+        width:3rem;
+        margin-bottom: 1rem;
+    }
+    .loremParagraph{
+        padding: 0;
+    }
+    .centerSection{
+        width: 20%;
+    }
+    .rightAside{
+        width: 50%;
+    }
+    .rightAsideBottomRight{
+        width: 47%;
+    }
+    .rightAsideBottomLeft{
+        width: 47%;
+    }
+    .navUl{
+        padding-left: 0;
+    }
+}

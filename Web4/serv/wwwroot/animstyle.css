@@ -1,0 +1,64 @@
+#work{
+    visibility:hidden;
+    z-index: 2;
+    background: white;
+    width: calc(50% + 10px);
+    height: calc(70% + 50px);
+    position: absolute;
+    margin:auto;
+    top: 15%;
+    left: 15%;
+}
+#operations{
+    overflow-y: scroll;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20%;
+    max-height: 90%;
+}
+#anim{
+    border: 5px solid #ff0000;
+    z-index: 2;
+    background: url("background.jpg");
+    background-repeat: repeat;
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    margin:auto;
+    bottom: 0;
+    left: 10%;
+}
+#playButton{
+    margin-bottom: 1rem;
+
+}
+#closeButton{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.animButton{
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+    display: none;
+}
+#startButton{
+    display: block;
+}
+#square {
+    display: hidden;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: dodgerblue;
+}
+
+#square2 {
+    display: hidden;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-color: darkorange;
+}
